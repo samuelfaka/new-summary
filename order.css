@@ -113,6 +113,8 @@
     box-shadow: 3px 2px 7px gray; 
     padding: 20px; 
     border-radius: 10px;
+    width: 23vw;
+    height: 35vh;
 }
 .a{
     display: flex;
@@ -184,10 +186,14 @@
         width: 72vw;
     }
     .both2{
-        width: 90vw;
+        width: 89vw;
     }
     .btn{
         width: 10vw;
         height: 6vh;
+    }
+    .toastify{
+        width: 73vw;
+        height: 35vh;
     }
 }
