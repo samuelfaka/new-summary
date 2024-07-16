@@ -181,21 +181,21 @@
     }
     .p10{
         width: 80vw;
+        height: 17vh;
     }
     .press{
         width: 72vw;
     }
     .both2{
         width: 89vw;
-        height: 70vh;
     }
     .btn{
         width: 10vw;
         height: 6vh;
     }
     .toastify{
-        width: 73vw;
-        height: 25vh;
+        width: 79vw;
+        height: 35vh;
     }
     .sec{
         display: flex;
@@ -211,7 +211,7 @@
         background-color: white;
         box-shadow: 5px 5px 5px;
         border-radius: 30px;
-        height: 65vh;
+        height: 99vh;
         width: 90vw;
     }
     .p{
