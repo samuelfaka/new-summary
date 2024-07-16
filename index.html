@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new summary</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+<section class="sec">
+<div class="both">
+    <div class="p12">
+        <div class="p11">
+            <div class="p2">
+                <div>
+                    <img class="p" src="./images/illustration-hero.svg" alt="">
+                    </div>
+                    <h1 class="p1">Order Summary</h1>
+            </div>
+            <p class="p3">
+                You can now listen to millions of songs, audiobooks, and podcasts on any 
+                device anywhere you like!</p>
+            
+            <div class="p10">
+                <div class="p9">
+                    <div class="p7">
+                        <div>
+                            <img class="p4" src="./images/icon-music.svg" alt="">
+                            </div>
+                            <div class="p6">
+                                <h1 class="p5">Annual Plan</h1>
+                                <p class="usd">$59.99/year</p>
+                            </div>
+                    </div>
+                    <h1 class="p8" onclick="changeprice()">Change</h1>
+                </div>
+            </div>
+            
+            <button class="press" onclick="proceed()"><b>Proceed to Payment</b></button>
+            <h1 class="nos" onclick="cancel()">Cancel Order</h1>
+        </div>
+    </div>
+    
+  <div class="both2">
+    <div class="toastify">
+        <div class="a1">
+            <div class="a">
+                <label class="title"><b>change price</b></label>
+                <input class="prices" type="number" required name="number">
+            </div>
+                <p class="eror-price"><b>price must not be less than 20$</b></p>
+               <p class="eror"><b>!this field is required</b></p>
+               <button class="btn" onclick="ok()"><b>OK</b></button>
+        </div>
+          </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="index.js"></script>
+</section>
+</body>
+</html>

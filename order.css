@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+.p{
+    height: 31vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.p1{
+    font-size: 30px;
+    color: rgb(13, 13, 14);
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.p3{
+    font-size: 17px;
+    width: 25vw;
+    text-align: center;
+    color: gray;
+}
+.p4{
+    height: 8vh;
+}
+.p5{
+    font-size: 16px;
+    color: rgb(13, 13, 14);
+}
+.usd{
+    font-size: 16px;
+}
+.p6{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.p7{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.p8{
+    font-size: 17px;
+    text-decoration: underline;
+    color: blue;
+}
+.p9{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+.p10{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgb(202, 216, 230);
+    cursor: pointer;
+}
+.press{
+    border: none;
+    background-color: blue;
+    width: 23vw;
+    height: 7vh;
+    font-size: 16px;
+    box-shadow: 5px 5px 5px rgb(156, 156, 219);
+    color: white;
+    cursor: pointer;
+}
+.nos{
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(13, 13, 14);
+}
+.p11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.p12{
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+    border-radius: 30px;
+    height: 92vh;
+}
+.prices{
+    border: 2px solid blue; 
+    padding: 10px;
+    border-radius: 10px;
+}
+.toastify{
+    background-color: whitesmoke;
+    box-shadow: 3px 2px 7px gray; 
+    padding: 20px; 
+    border-radius: 10px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 17px;
+}
+.eror-price{
+    font-size: 14px;
+    color: red;
+    display: none;
+}
+.eror{
+    font-size: 13px;
+    color: darkgreen;
+    display: none;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    width: 4vw;
+    height: 4vh;
+    color: white;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.both{
+    display: flex;
+}
+.both2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 105vh;
+    width: 30vw;
+    scale: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width:950px) {
+    .p3{
+        width: 70vw;
+        font-size: 15px;
+    }
+    .p11{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .p1{
+        font-size: 19px;
+    }
+    .p10{
+        width: 73vw;
+    }
+    .press{
+        width: 72vw;
+    }
+    .both2{
+        width: 90vw;
+    }
+    .btn{
+        width: 10vw;
+        height: 6vh;
+    }
+}
